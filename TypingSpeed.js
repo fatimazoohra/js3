@@ -1,5 +1,6 @@
 
 var speed=document.getElementById('Speed');
+var text=document.getElementById('text');
 
 	var sec=00;
 	var min=00;
@@ -17,6 +18,15 @@ function StartChrono() {
 		hour+=1;
 		min=00;
 	}
+}
+
+function Redemarrer(){
+	 sec =00;
+	 min =00;
+	 hour=00;
+	speed.innerText = hour+":"+min+":"+sec;
+
+
 }
 
 
