@@ -13,3 +13,15 @@ elmnt.addEventListener("click",eventclbk2,true);
 // var n=document.createTextNode()
 
 // const fig =document.querySelector(.mafig)
+
+var f=(){
+	const a="Bonjour";
+	const f2=(b) => {
+		console.log(a);
+		a = b;
+		console.log(a);
+	}
+	return f2;
+}
+var g1= f();
+var g2= f();
